@@ -9,4 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>flashcards-data</module>
+        <module>flashcards-service-api</module>
+        <module>flashcards-service</module>
+        <module>flashcards-web</module>
+    </modules>
 </project>
