@@ -12,6 +12,11 @@
     <artifactId>flashcards-web</artifactId>
     <packaging>war</packaging>
     <dependencies>
+        <dependency>
+            <groupId>hu.szameth</groupId>
+            <artifactId>flashcards-service-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--spring-->
         <dependency>
             <groupId>org.springframework</groupId>
