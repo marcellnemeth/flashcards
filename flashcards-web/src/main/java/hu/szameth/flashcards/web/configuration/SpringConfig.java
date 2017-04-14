@@ -16,11 +16,11 @@ import org.springframework.web.servlet.view.JstlView;
 public class SpringConfig extends WebMvcConfigurerAdapter {
 
     @Bean
-    ViewResolver viewResolver() {
+    public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
         viewResolver.setPrefix("/WEB-INF/views/");
-        viewResolver.setPrefix(".jsp");
+        viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
 

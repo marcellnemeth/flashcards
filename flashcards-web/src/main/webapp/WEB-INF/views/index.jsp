@@ -11,6 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-    <p>Hello World</p>
+    <h1>Hello Marci</h1>
+
+    <input type="hidden"
+           name="${_csrf.parameterName}"
+           value="${_csrf.token}"/>
 </body>
 </html>
